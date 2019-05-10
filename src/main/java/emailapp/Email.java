@@ -23,6 +23,7 @@ public class Email {
 	
 		//set a new password for employee
 		this.password = randPassword(8);
+		System.out.println("Your password is " + this.password);
 	}
 	
 	private String randPassword(int length) {
